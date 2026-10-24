@@ -1,0 +1,14 @@
+[project]
+name = "nienai-nodes"
+description = "Nienai — GrsAI image generation nodes (ImageGen / AssetGen / SceneCompositor / Storyboard / ShotFilter / RemoveBG / ScriptExtractor / AudioConcat)"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch>=2.0", "numpy", "pillow", "requests"]
+
+[project.urls]
+Repository = ""
+
+[tool.comfy]
+PublisherId = "nienai"
+DisplayName = "Nienai-Nodes"
+Icon = ""

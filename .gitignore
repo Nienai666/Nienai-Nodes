@@ -1,0 +1,25 @@
+# Python 编译产物
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 本地密钥/配置（绝对不要上传）
+.grsai_key
+*.key
+*.secret
+.env
+config.local.*
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志与临时产物
+*.log
+*.tmp
+
+# 本地备份文件（不提交）
+*.bak-*
+*.bak
